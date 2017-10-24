@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">一键诊断</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="myinformation">我的信息</string>
+    <string name="setting">设置</string>
+    <string name="measureandset">参数召测和设置</string>
+    <string name="onekeydiagnosos">一键诊断</string>
+    <string name="terminalip">终端IP</string>
+    <string name="mainstationip">主站IP</string>
+    <string name="terminaltime">终端日历时钟</string>
+    <string name="mainstationmonthflow">主站通信月流量</string>
+    <string name="terminalversioninfor">终端版本信息</string>
+    <string name="terminalother">终端其他信息</string>
+    <string name="terminalreset">终端复位</string>
+    <string name="terminalimmediatelyread">终端立即抄表</string>
+    <string name="Measure">召测</string>
+    <string name="Lssued">下发</string>
+    <string name="title_paired_devices">匹配的设备</string>
+    <string name="title_other_devices">其它可用设备</string>
+    <string name="button_scan">扫描设备</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="none_paired">没有匹配的设备</string>
+    <string name="scanning">扫描设备&#8230;</string>
+    <string name="none_found">没有找到设备</string>
+    <string name="select_device">选择连接的设备</string>
+</resources>

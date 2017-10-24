@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="请输入集中器地址或扫描条码"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="集中器地址："/>
+        <EditText
+            android:id="@+id/ed_jzqaddress"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:src="@drawable/cjzd"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/dialog_leftbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/bg_dialog_left_white"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/line" />
+
+        <TextView
+            android:id="@+id/dialog_rightbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/bg_dialog_right_white"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

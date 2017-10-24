@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_measuringPointNum"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="测量点号" />
+
+        <TextView
+            android:id="@+id/tv_meterAddress"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="表地址" />
+
+        <TextView
+            android:id="@+id/tv_protocolNum"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="规约编号" />
+
+        <TextView
+            android:id="@+id/tv_portNum"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="端口号" />
+
+        <TextView
+            android:id="@+id/tv_dayfrozenValue"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="日冻结示值" />
+
+        <TextView
+            android:id="@+id/tv_clockpassthrough"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2017-10-15 15:30" />
+
+        <TextView
+            android:id="@+id/tv_diagnosisResult"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="诊断结果" />
+    </LinearLayout>
+
+</LinearLayout>
